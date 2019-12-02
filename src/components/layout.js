@@ -24,13 +24,13 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className="container">
       <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
         <footer>
           <a href="https://namaz.kufic.store">Молитвенная практика →</a>
         </footer>
-    </>
+    </div>
   )
 }
 
