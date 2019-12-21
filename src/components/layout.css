@@ -40,15 +40,15 @@ header {
 footer a {
   font-size: 15px;
   text-decoration: none;
-  color: #1a1a1a;
-  background:#30DC88;
+  color: #fff;
+  background:#021F8E;
   padding: 8px 24px;
   border-radius: 30px;
   display: inline-block;
 }
 
 footer a:hover {
-  background: #30DC88;
+  background: #021F8E;
 }
 
 
@@ -61,7 +61,6 @@ footer a:hover {
   footer a {
     font-size: 20px;
     padding: 12px 32px;
-    color:#0035EC;
   }
 
   .container {
