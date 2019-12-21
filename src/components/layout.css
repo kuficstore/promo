@@ -1,12 +1,12 @@
 html {
-  font-family: 'Prata', serif;
+  font-family: 'PT Serif', serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-align: center;
 }
 
 body {
-  background:#1a1a1a;
+  background:#021F8E;
   color: #fff;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -41,14 +41,14 @@ footer a {
   font-size: 15px;
   text-decoration: none;
   color: #1a1a1a;
-  background:#fff;
+  background:#f45d22;
   padding: 8px 24px;
   border-radius: 30px;
   display: inline-block;
 }
 
 footer a:hover {
-  background:#04A65C;
+  background:#FC7F4E;
 }
 
 
@@ -61,6 +61,7 @@ footer a:hover {
   footer a {
     font-size: 20px;
     padding: 12px 32px;
+    color:#fff;
   }
 
   .container {
@@ -79,7 +80,6 @@ footer a:hover {
   body {
     padding: 10rem 0rem;
   }
-
   .description {
     font-size: 58px;
     line-height: 1.11;
@@ -88,7 +88,6 @@ footer a:hover {
   header {
     font-size: 80px;
   }
-
 }
 
 
