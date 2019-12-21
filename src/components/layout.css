@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background:#021F8E;
+  background:#0035EC;
   color: #fff;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -41,14 +41,14 @@ footer a {
   font-size: 15px;
   text-decoration: none;
   color: #1a1a1a;
-  background:#f45d22;
+  background:#30DC88;
   padding: 8px 24px;
   border-radius: 30px;
   display: inline-block;
 }
 
 footer a:hover {
-  background:#FC7F4E;
+  background: #30DC88;
 }
 
 
@@ -61,7 +61,7 @@ footer a:hover {
   footer a {
     font-size: 20px;
     padding: 12px 32px;
-    color:#fff;
+    color:#0035EC;
   }
 
   .container {
