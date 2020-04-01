@@ -1,108 +1,154 @@
 html {
-  font-family: 'PT Serif', serif;
+  font-family: Helvetica, Arial,  sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  text-align: center;
 }
 
 body {
-  background:#0035EC;
-  color: #fff;
-  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
   box-sizing: border-box;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  flex-direction: column;
-  padding: 2rem 0rem;
-
-  display: flex;
   vertical-align: revert;
-  flex-direction: column;
-  justify-content: center;
-}
-
-header {
-  font-size: 60px;
-}
-
-.description {
-  font-size: 27px;
-  line-height: 1.11;
-  font-weight: 500;
-  margin-top: 60px;
-  margin-bottom: 100px;
-}
-
-footer a {
-  font-size: 15px;
-  text-decoration: none;
+  margin: 0px;
+  background: #0035EC;
   color: #fff;
-  background:#021F8E;
-  padding: 8px 24px;
-  border-radius: 30px;
-  display: inline-block;
 }
 
-footer a:hover {
-  background: #021F8E;
+main {
+  padding: 0px 20px;
 }
 
+.top {
+  margin-top: 144px;
+  font-size: 56px;
+}
+
+.top__logo {
+  font-size: 32px;
+  color: goldenrod;
+}
+
+
+
+.preview {
+  margin-top: 96px;
+  margin-bottom: 48px;
+}
+
+
+.preview__kit {
+  height: 680px;
+  background: #063396;
+  background-image: url('../images/quran-cover.jpg');
+  background-size: cover;
+}
+
+.pray {
+
+}
+
+
+
+
+.pray__item {
+  padding: 48px 0px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.pray__item:last-child {
+  border-bottom: 1px solid transparent;
+}
+
+.pray__link {
+  font-size: 56px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.pray__link:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  margin-top: 96px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+}
+
+.copyright__logo {
+  width: 96px;
+  height: 96px;
+  background-image: url('../images/logo.svg');
+  flex-shrink: 0;
+}
+
+.copyright__description {
+  margin-left: 42px;
+  font-size: 32px;
+}
+
+.footer__date {
+  margin-top: 11px;
+  font-size: 32px;
+  display: none;
+}
 
 @media screen and (min-width: 737px) {
 
-  .description {
-    font-size: 48px;
-  }
-
-  footer a {
-    font-size: 20px;
-    padding: 12px 32px;
-  }
-
-  .container {
-    width: 1280px;
-    margin: 0 auto;
-  }
-
-  body {
-    display: block;
-  }
   
 }
 
 
 @media screen and (min-width: 1024px) {
-  body {
-    padding: 10rem 0rem;
-  }
-  .description {
-    font-size: 58px;
-    line-height: 1.11;
-  }
 
-  header {
-    font-size: 80px;
-  }
 }
 
 
 @media screen and (min-width: 1280px) {
-  body {
-    padding: 10rem 0rem;
+  .top__container {
+    width: 1060px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
   }
 
-  .description {
-    font-size: 72px;
-    line-height: 1.11;
+  .pray__list {
+    width: 720px;
   }
 
-  .container {
-    width: 1280px;
-    margin: 0 auto;
+  .top__description {
+    width: 720px;
+    font-weight: bold;
   }
 
+  .pray__container {
+    width: 1060px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .preview__container {
+    width: 1060px;
+    margin: auto;
+  }
+
+  .footer__container {
+    padding: 72px 0px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    width: 1060px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__date {
+    display: block;
+  }
+  
 }

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `متجر`,
-    description: `Куфическая Лака`,
+    description: `Куфическая Лавка`,
     author: `@kuficstore`,
   },
   plugins: [

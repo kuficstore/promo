@@ -9,7 +9,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -24,13 +23,11 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="container">
-      <Header siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
-        <footer>
-          <a href="https://namaz.kufic.store">Молитвенная практика →</a>
-        </footer>
+    <div>
+      <main>{children}</main>
     </div>
+      
+    
   )
 }
 
