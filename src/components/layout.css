@@ -23,12 +23,17 @@ body {
   text-align: center;
 }
 
+.top__container {
+  margin: 0px 20px;
+}
+
 .top__logo {
   font-size: 24px;
   font-weight: bold;
   margin-top: 6px;
   color: #FBDB65;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .preview {
@@ -118,6 +123,7 @@ body {
   }
 
   .top__logo {
+    margin-top: 6px;
     font-size: 32px;
   }
 
