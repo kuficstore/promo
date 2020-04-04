@@ -12,7 +12,7 @@ body {
   -webkit-box-direction: normal;
   vertical-align: revert;
   margin: 0px;
-  background: #002D72;
+  background: #0340CC;
   color: #fff;
 }
 
@@ -31,7 +31,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   margin-top: 6px;
-  color: #FBDB65;
+  color: #FFCC01;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .pray__link:hover {
-  color: #3CCBDA;
+  color: #300B2A9;
 }
 
 .footer {
