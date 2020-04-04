@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `متجر`,
-    description: `Куфическая Лавка`,
+    title: `Куфическая Лавка`,
+    description: `Как читать намаз. Руководство для начинающих.`,
     author: `@kuficstore`,
   },
   plugins: [
@@ -27,12 +27,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Куфическая Лавка`,
+        short_name: `Kufic.Store`,
         start_url: `/`,
-        background_color: `#663399`,
+        description: `Как читать намаз. Руководство для начинающих.`,
+        lang: `ru`,
+        background_color: `#FFFFFF`,
         theme_color: `#663399`,
-        display: `minimal-ui`,
+        display: `Kufic.Store`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
